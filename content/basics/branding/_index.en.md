@@ -94,7 +94,7 @@ If you want to switch the syntax highlighting theme together with your color var
 
 You can use a one of the shipped stylesheet files or use Hugo to generate a file for you. The file must be written to `assets/css/chroma-<NAME>.css`. To use it with your color variant you have to define `--CODE-theme: <NAME>` in the color variant stylesheet file.
 
-For an example, take a look into [`theme-relearn-light.css`](https://github.com/McShelby/hugo-theme-relearn/blob/main/assets/css/theme-relearn-light.css) and [`hugo.toml`](https://github.com/McShelby/hugo-theme-relearn/blob/main/exampleSite/config/_default/hugo.toml) of the exampleSite.
+For an example, take a look into [`theme-relearn-light.css`](https://github.com/xjmusic/xjmusic/blob/main/assets/css/theme-relearn-light.css) and [`hugo.toml`](https://github.com/xjmusic/xjmusic/blob/main/exampleSite/config/_default/hugo.toml) of the exampleSite.
 
 ## Change the Variant (Advanced) {#theme-variant-advanced}
 

@@ -1,6 +1,6 @@
 /*!
  * github-buttons v2.27.0
-    McShelby/hugo-theme-relearn#155
+    xjmusic/xjmusic#155
       - make render() available on window.githubButtons
  * (c) 2023 なつき
  * @license BSD-2-Clause

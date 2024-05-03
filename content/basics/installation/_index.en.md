@@ -32,7 +32,7 @@ Every upcoming command will be executed from inside your new site's root.
 
 ### Downloading as Archive
 
-You can [download the theme as .zip archive](https://github.com/McShelby/hugo-theme-relearn/archive/main.zip) and extract its content into them `themes/hugo-theme-relearn` directory.
+You can [download the theme as .zip archive](https://github.com/xjmusic/xjmusic/archive/main.zip) and extract its content into them `themes/hugo-theme-relearn` directory.
 
 Afterwards add this at the end of your `hugo.toml`.
 
@@ -53,7 +53,7 @@ Afterwards add this at the end of your `hugo.toml`.
 {{< multiconfig file=hugo >}}
 [module]
   [[module.imports]]
-    path = 'github.com/McShelby/hugo-theme-relearn'
+    path = 'github.com/xjmusic/xjmusic'
 {{< /multiconfig >}}
 
 ### Using Git Submodules
@@ -67,7 +67,7 @@ git init
 Now add the theme as a submodule by:
 
 ````shell
-git submodule add https://github.com/McShelby/hugo-theme-relearn.git themes/hugo-theme-relearn
+git submodule add https://github.com/xjmusic/xjmusic.git themes/hugo-theme-relearn
 ````
 
 Afterwards add this at the end of your `hugo.toml`.

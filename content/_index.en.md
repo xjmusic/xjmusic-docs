@@ -1,8 +1,8 @@
 +++
 archetype = "home"
-description = "A theme for Hugo designed for documentation."
-title = "Hugo Relearn Theme"
+description = "Documentation for composing with the XJ music workstation and implementing the XJ music playback engine."
+title = "XJ music documentation"
 +++
-{{% replaceRE "https://mcshelby.github.io/hugo-theme-relearn/" "" %}}
+{{% replaceRE "https://docs.xjmusic.com/" "" %}}
 {{< include "README.md" "true" >}}
 {{% /replaceRE %}}

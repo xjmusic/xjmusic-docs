@@ -19,9 +19,9 @@ The default configuration comes with three predefined areas that may contain an 
 
 ![Topbar with default areas marked](topbar-areas.png)
 
-- [**start**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/area/start.html): shown between menu and breadcrumb
-- [**end**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/area/end.html): shown on the opposite breadcrumb side in comparison to the _start_ area
-- [**more**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/area/more.html): shown when pressing the {{% button style="transparent" icon="ellipsis-v" %}}{{% /button %}} _more_ button in the topbar
+- [**start**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/area/start.html): shown between menu and breadcrumb
+- [**end**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/area/end.html): shown on the opposite breadcrumb side in comparison to the _start_ area
+- [**more**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/area/more.html): shown when pressing the {{% button style="transparent" icon="ellipsis-v" %}}{{% /button %}} _more_ button in the topbar
 
 While you can not add additional areas in the topbar, you are free to configure additional buttons that behave like the _more_ button, providing further user defined areas.
 
@@ -29,13 +29,13 @@ While you can not add additional areas in the topbar, you are free to configure 
 
 The theme ships with the following predefined buttons (from left to right in the screenshot)
 
-- {{% button style="transparent" icon="bars" %}}{{% /button %}} [**sidebar**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/sidebar.html): opens the sidebar flyout if in mobile layout
-- {{% button style="transparent" icon="list-alt" %}}{{% /button %}} [**toc**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/toc.html): opens the table of contents in an overlay
-- {{% button style="transparent" icon="pen" %}}{{% /button %}} [**edit**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/edit.html): browses to the editable page if the `editURL` [parameter is set](basics/configuration)
-- {{% button style="transparent" icon="print" %}}{{% /button %}} [**print**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/print.html): browses to the chapters printable page if [print support](basics/customization#activate-print-support) was activated
-- {{% button style="transparent" icon="chevron-left" %}}{{% /button %}} [**prev**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/prev.html): browses to the previous page if there is one
-- {{% button style="transparent" icon="chevron-right" %}}{{% /button %}} [**next**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/next.html): browses to the next page if there is one
-- {{% button style="transparent" icon="ellipsis-v" %}}{{% /button %}} [**more**](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/more.html): opens the overlay for the _more_ area
+- {{% button style="transparent" icon="bars" %}}{{% /button %}} [**sidebar**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/sidebar.html): opens the sidebar flyout if in mobile layout
+- {{% button style="transparent" icon="list-alt" %}}{{% /button %}} [**toc**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/toc.html): opens the table of contents in an overlay
+- {{% button style="transparent" icon="pen" %}}{{% /button %}} [**edit**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/edit.html): browses to the editable page if the `editURL` [parameter is set](basics/configuration)
+- {{% button style="transparent" icon="print" %}}{{% /button %}} [**print**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/print.html): browses to the chapters printable page if [print support](basics/customization#activate-print-support) was activated
+- {{% button style="transparent" icon="chevron-left" %}}{{% /button %}} [**prev**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/prev.html): browses to the previous page if there is one
+- {{% button style="transparent" icon="chevron-right" %}}{{% /button %}} [**next**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/next.html): browses to the next page if there is one
+- {{% button style="transparent" icon="ellipsis-v" %}}{{% /button %}} [**more**](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/more.html): opens the overlay for the _more_ area
 
 Not all buttons are displayed at every given time. This is configurable (see below if interested).
 
@@ -43,7 +43,7 @@ Not all buttons are displayed at every given time. This is configurable (see bel
 
 Each predefined area and button comes in their own file. By that it is easy for you to overwrite an area file in your installation reusing only the buttons you like.
 
-Eg. you can redefine the predefined _end_ area by adding the file [`layouts/partials/topbar/area/end.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/area/end.html) in your installation (not in the theme itself) to remove all but the _more_ button.
+Eg. you can redefine the predefined _end_ area by adding the file [`layouts/partials/topbar/area/end.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/area/end.html) in your installation (not in the theme itself) to remove all but the _more_ button.
 
 The below example sets an explicit value for the `onempty` parameter, overriding the specific default value for this button (these defaults vary depending on the button). The parameter causes the _more_ button to always be displayed instead of hiding once its content is empty.
 
@@ -83,9 +83,9 @@ For each width class, you can configure one of the following actions:
 
 While hiding a button depending on the screen size can be configured with the above described _hide_ action, you may want to hide the button on certain other conditions as well.
 
-For example, the _print_ button in its default configuration should only be displayed if print support was configured. This is done in your button template by checking the conditions first before displaying the button (see [`layouts/partials/topbar/button/print.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/print.html)).
+For example, the _print_ button in its default configuration should only be displayed if print support was configured. This is done in your button template by checking the conditions first before displaying the button (see [`layouts/partials/topbar/button/print.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/print.html)).
 
-Another preferred condition for hiding a button is, if the displayed overlay is empty. This is the case for the _toc_ (see [`layouts/partials/topbar/button/toc.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/toc.html)) as well as the _more_ button (see [`layouts/partials/topbar/button/more.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/more.html)) and controlled by the parameter `onempty`.
+Another preferred condition for hiding a button is, if the displayed overlay is empty. This is the case for the _toc_ (see [`layouts/partials/topbar/button/toc.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/toc.html)) as well as the _more_ button (see [`layouts/partials/topbar/button/more.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/more.html)) and controlled by the parameter `onempty`.
 
 This parameter can have one of the following values:
 
@@ -98,9 +98,9 @@ If you want to disable a button containing _no overlay_, this can be achieved by
 
 ### Button
 
-Contains the basic button functionality and is used as a base implementation for all other buttons ([`layouts/partials/topbar/func/button.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/func/button.html)).
+Contains the basic button functionality and is used as a base implementation for all other buttons ([`layouts/partials/topbar/func/button.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/func/button.html)).
 
-Call this from your own button templates if you want to implement a button without an overlay like the _print_ button ([`layouts/partials/topbar/button/print.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/print.html)) or with an overlay containing arbitrary content like the _toc_ button ([`layouts/partials/topbar/button/toc.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/toc.html)).
+Call this from your own button templates if you want to implement a button without an overlay like the _print_ button ([`layouts/partials/topbar/button/print.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/print.html)) or with an overlay containing arbitrary content like the _toc_ button ([`layouts/partials/topbar/button/toc.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/toc.html)).
 
 For displaying an area in the button's overlay, see [Area-Button](#area-button).
 
@@ -122,9 +122,9 @@ For displaying an area in the button's overlay, see [Area-Button](#area-button).
 
 ### Area-Button
 
-Contains the basic functionality to display area overlay buttons ([`layouts/partials/topbar/func/area-button.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/func/area-button.html)).
+Contains the basic functionality to display area overlay buttons ([`layouts/partials/topbar/func/area-button.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/func/area-button.html)).
 
-Call this from your own button templates if you want to implement a button with an area overlay like the _more_ button ([`layouts/partials/topbar/button/more.html`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button/more.html)).
+Call this from your own button templates if you want to implement a button with an area overlay like the _more_ button ([`layouts/partials/topbar/button/more.html`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button/more.html)).
 
 #### Parameter
 
@@ -142,7 +142,7 @@ Call this from your own button templates if you want to implement a button with 
 
 ### Predefined Buttons
 
-The predefined buttons by the theme (all other buttons besides the _more_ and _toc_ button in [`layouts/partials/topbar/button`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button)).
+The predefined buttons by the theme (all other buttons besides the _more_ and _toc_ button in [`layouts/partials/topbar/button`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button)).
 
 Call these from your own redefined area templates if you want to use default button behavior.
 
@@ -159,7 +159,7 @@ The `<varying>` parameter values are different for each button and configured fo
 
 ### Predefined Overlay-Buttons
 
-The predefined buttons by the theme that open an overlay (the _more_ and _toc_ button in [`layouts/partials/topbar/button`](https://github.com/McShelby/hugo-theme-relearn/blob/main/layouts/partials/topbar/button)).
+The predefined buttons by the theme that open an overlay (the _more_ and _toc_ button in [`layouts/partials/topbar/button`](https://github.com/xjmusic/xjmusic/blob/main/layouts/partials/topbar/button)).
 
 Call these from your own redefined area templates if you want to use default button behavior utilizing overlay functionality.
 

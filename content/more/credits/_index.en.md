@@ -4,7 +4,7 @@ title = "Credits"
 
 ## Contributors
 
-Special thanks to [everyone who has contributed](https://github.com/McShelby/hugo-theme-relearn/graphs/contributors) to this project.
+Special thanks to [everyone who has contributed](https://github.com/xjmusic/xjmusic/graphs/contributors) to this project.
 
 Many thanks to [Mathieu Cornic](https://github.com/matcornic) for his work on porting the [Learn theme](https://github.com/matcornic/hugo-theme-learn) to Hugo.
 
