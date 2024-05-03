@@ -90,7 +90,7 @@ summaryLength = 10
   [[languages.en.menu.shortcuts]]
     name = "<i class='fa-fw fab fa-github'></i> GitHub repo"
     identifier = "ds"
-    url = "https://github.com/xjmusic/"
+    url = "https://github.com/xjmusic/xjmusic"
     weight = 10
 
 #  [[languages.en.menu.shortcuts]]
