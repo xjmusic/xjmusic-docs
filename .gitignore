@@ -5,3 +5,6 @@
 hugo.exe
 hugo.linux
 hugo.darwin
+
+.idea
+.vscode
