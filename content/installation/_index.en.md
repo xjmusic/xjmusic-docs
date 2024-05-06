@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "installation"
+title = "Installation"
 weight = 3
 +++
 
