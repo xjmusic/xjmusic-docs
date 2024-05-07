@@ -1,5 +1,0 @@
-+++
-title = "Configurations of Programs"
-+++
-
-
