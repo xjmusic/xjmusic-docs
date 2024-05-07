@@ -11,7 +11,7 @@ When you open a Project, you’ll see a list of all its Libraries.
 
 Click on the name of a Library to see the content within.
 
-Libraries contain two types of content: [Programs](content\getting-started\Libraries\_index.en.md) and [Instruments](instruments.md).
+Libraries contain two types of content: **Programs** and **Instruments**.
 
 
 {{% notice style="tip" title= "Pro Tip"%}}
