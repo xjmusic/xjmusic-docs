@@ -1,5 +1,5 @@
 +++
-title = "Craft Phases, Instrument Types, and available Instrument Modes"
+title = "How Craft Phases, Instrument Types, and Instrument Modes Interact"
 +++
 
 

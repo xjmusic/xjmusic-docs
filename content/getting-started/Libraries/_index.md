@@ -1,7 +1,6 @@
 +++
 title = "Libraries"
 +++
-weight = 1
 
 Libraries are collections of content within the XJ workstation.
 
