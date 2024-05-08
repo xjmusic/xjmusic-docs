@@ -3,4 +3,6 @@ title = "Craft Phases, Instrument Types, and available Instrument Modes"
 +++
 
 
-Table format tbd
+![Crafting Table](CraftPhases-InstrumentTypes-AvailableModes.png)
+
+
