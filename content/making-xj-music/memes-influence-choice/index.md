@@ -40,3 +40,26 @@ Unique-Meme aka Solo-Meme|$PEACHES|Do not choose this content, if we have alread
 |Strong-Meme|PEACHES!|Only choose content if we have already chosen content with the corresponding regular meme.   Only if XJ has already chosen content for the segment having regular meme PEACHES will XJ consider choosing content with strong meme PEACHES!|
 
 \* Strong memes are not added to the stack.
+
+## Meme Taxonomy
+
+A template configuration has a field called ```memeTaxonomy``` which defines the taxonomy of memes.
+
+For example, this might look like
+
+
+```
+memeTaxonomy = [
+
+  {"memes":["RED","GREEN","BLUE"],"name":"COLOR"},
+
+  {"memes":["WINTER","SPRING","SUMMER","FALL"],"name":"SEASON"}
+
+]
+```
+
+That would tell XJ about the existence of a meme category called ```COLOR``` with values ```RED```, ```GREEN```, and ```BLUE```, and a meme category called ```SEASON``` with values ```WINTER```,  ```SPRING```, ```SUMMER```, and ```FALL```.
+
+For example, after content having ```RED``` is chosen, we can choose nothing with ```GREEN``` or ```BLUE```.
+
+*NOTE: Use a semicolon to separate the categories. Each category has a comma-separated list of memes.
