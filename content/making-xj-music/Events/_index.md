@@ -100,7 +100,7 @@ Other Perc Loops are intended to be added on top of a stable base of Primary per
 Other Perc. Loops are intended to support the known structure of the rhythm. Let's call these `BACKBEAT` perc loops.
 
 
-We can store the priority in audio name, similar to how we're using name for transition loop small/medium/large
+We can store the priority in audio name, similar to how we're using name for transition loop small/medium/large.
 
 
 

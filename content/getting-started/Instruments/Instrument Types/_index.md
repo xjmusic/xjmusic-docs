@@ -37,6 +37,8 @@ Percussion instruments contain audios that consist of rhythmic patterns or seque
 
 ## Transition
 
+Transition instruments contain audios that are used to smoothly move between different sections or parts of a song, scene, or composition. These sounds help to create cohesion and flow within the production, guiding the listener from one part to another and maintaining interest and engagement throughout. Transition-instruments can only be played in event mode and are introduced in the transition-craft phase.
+
 ## Background
 
-Background instruments are an audio texture that are at least 1 minute (longer than any section). They are used to create an atmospheric backdrop and establish a sense of place, mood, or environment without necessarily being the focal point of the sequence. When chosen, XJ uses a random piece from within the available audio to fill each section when the instrument is chosen and builds in and out of layers of background audio the same way it does perc loops. Backgorund instruments can only be played in event mode and are introduced in the background-craft phase.
+Background instruments contain audio textures that are at least 1 minute (longer than any section). They are used to create an atmospheric backdrop and establish a sense of place, mood, or environment without necessarily being the focal point of the sequence. When chosen, XJ uses a random piece from within the available audio to fill each section when the instrument is chosen and builds in and out of layers of background audio the same way it does perc loops. Backgorund instruments can only be played in loop mode and are introduced in the background-craft phase.
