@@ -34,3 +34,16 @@ weight = 6
 | C 7sus4   | C dom7sus4, C dominant 7sus4, C 7sus                  |
 | C -b6     | C minb6, C minor b6, Cmb6                              |
 
+| Chord     | Synonyms                                              |
+|-----------|-------------------------------------------------------|
+| C maj7    | C major7, CM7, C∆                                    |
+| C -7b5    | C min7b5, C minor7b5, Cm7b5, CØ, C half dim, C half diminished |
+| C 6       | C maj6, C major6, CM6                                |
+| C 7b9b13  | C dom7b9b13, C dominant 7b9b13                        |
+| C 7/9b13  | C dom7/9b13, C dominant 7/9b13                        |
+| C sus4    | C sus                                                 |
+| C add4    | C maj add4, C major add4, CMadd4, CMadd11, C add11, C maj add11, C major add11 |
+| C 7/9     | C dom7/9, C dominant 7/9, C 9, C7add9                |
+| C aug maj7 | C +Maj7, C augmented major 7, C+M7, CaugM7, Caug∆, C+∆, C maj7#5, C major7#5, C+♮7, C∆#5 |
+| C dim maj7 | C diminished major 7, CdimM7, Cdim♮7, C°M7            |
+
