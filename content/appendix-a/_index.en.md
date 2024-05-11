@@ -1,8 +1,10 @@
 +++
 archetype = "chapter"
-title = "Appendix A"
+title = "Appendix A. Chord Interpretation"
 weight = 6
 +++
+
+## Chord Interpretation
 
 *Using 12-tone equal-tempered octaves.
 
