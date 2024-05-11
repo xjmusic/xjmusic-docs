@@ -47,3 +47,16 @@ weight = 6
 | C aug maj7 | C +Maj7, C augmented major 7, C+M7, CaugM7, Caug∆, C+∆, C maj7#5, C major7#5, C+♮7, C∆#5 |
 | C dim maj7 | C diminished major 7, CdimM7, Cdim♮7, C°M7            |
 
+| Chord     | Synonyms                                              |
+|-----------|-------------------------------------------------------|
+| C -7      | C min7, C minor7, Cm7, C mi7                         |
+| C 7add4   | C dom7add4, C dominant 7add4, C 7/11, C 11, C dom7/11, C dominant7/11 |
+| C +       | C aug, C augmented                                    |
+| C #5      | C 7b9/13, C dom7b9/13, C dominant 7 b9/13             |
+| C sus2    | C 5add9, C 5add2                                      |
+| C maj7/9  | C major7/9, CM7/9, CM7add9, C∆9, C maj7add9, C major7add9, C maj7add2, C major7add2 |
+| C 7#11    | C dom7#11, C dominant 7#11, C 7b5, C dom7b5, C dominant 7b5 |
+| C -7/9    | C min7/9, C minor7/9, Cm7/9, Cm7add9, C min7add9, C minor7add9, C mi7/9, C mi7add9, C -7add9 |
+| C maj7/13 | C major7/13, CM7/13, C∆13                             |
+
+
