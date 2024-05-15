@@ -1,1 +1,7 @@
 <link rel="stylesheet" href="/css/custom.css">
+
+<link rel="stylesheet" href="/css/cookieconsent.css">
+
+{{- if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics.html" . }}
+{{- end}}
