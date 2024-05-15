@@ -6,10 +6,6 @@
     padding-left: 1.3rem !important;
 }
 
-#R-body img.bg-white {
-    background-color: white;
-}
-
 body:not(.print) #R-body-inner h1 {
     line-height: 1.2em;
 }
