@@ -31,13 +31,13 @@ detail the process of how we add memes to the segment as we choose content
 
 XJ’s marble bag is actually divided into phases. When a marble is put into the bag, it is assigned a phase.  For example, if the phase 1 bag contains any marbles, we will pick from only the phase 1 bag and skip phases 2 and beyond. This supports functionality such as “XJ always chooses a directly-bound program or instrument when available”  
 
-| Meme Type | Example | When meme matches |
-|-----------|---------|-------------------|
-|Regular Meme|PEACHES|Increase likelihood to choose content that matches regular memes XJ has already chosen for the segment.|
-|Anti-Meme aka Not-Meme|!PEACHES|Do not choose this content, if we have already chosen content with the corresponding regular meme.  If XJ has already chosen content for the segment having anti-meme !PEACHES, then XJ will not choose content having regular meme PEACHES|
-Unique-Meme aka Solo-Meme|$PEACHES|Do not choose this content, if we have already chosen content with this unique-meme. If XJ has already chosen content for the segment having unique-meme $PEACHES, then XJ will not choose any other content having this same unique-meme.|
-|Number-Meme|5PEACHES|Do not choose this content, if we have already chosen content with a different number of the same meme. If XJ has already chosen content for the segment having number-meme 5PEACHES, then XJ will not choose content with number-meme 7PEACHES.|
-|Strong-Meme|PEACHES!|Only choose content if we have already chosen content with the corresponding regular meme.   Only if XJ has already chosen content for the segment having regular meme PEACHES will XJ consider choosing content with strong meme PEACHES!|
+| Meme Type                 | Example    | When meme matches                                                                                                                                                                                                                                |
+|---------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Regular Meme              | `PEACHES`  | Increase likelihood to choose content that matches regular memes XJ has already chosen for the segment.                                                                                                                                          |
+| Anti-Meme aka Not-Meme    | `!PEACHES` | Do not choose this content, if we have already chosen content with the corresponding regular meme.  If XJ has already chosen content for the segment having anti-meme !PEACHES, then XJ will not choose content having regular meme PEACHES      |
+| Unique-Meme aka Solo-Meme | `$PEACHES` | Do not choose this content, if we have already chosen content with this unique-meme. If XJ has already chosen content for the segment having unique-meme $PEACHES, then XJ will not choose any other content having this same unique-meme.       |
+| Number-Meme               | `5PEACHES` | Do not choose this content, if we have already chosen content with a different number of the same meme. If XJ has already chosen content for the segment having number-meme 5PEACHES, then XJ will not choose content with number-meme 7PEACHES. |
+| Strong-Meme               | `PEACHES!` | Only choose content if we have already chosen content with the corresponding regular meme.   Only if XJ has already chosen content for the segment having regular meme PEACHES will XJ consider choosing content with strong meme PEACHES!       |
 
 \* Strong memes are not added to the stack.
 
