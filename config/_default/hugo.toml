@@ -26,6 +26,9 @@ title = "XJ music documentation"
 # Don't use any auto-generated summaries
 summaryLength = 10
 
+# Google Analytics
+googleAnalytics = "G-GW9VCFXV42"
+
 [outputs]
   # add `search` to the home to support Lunr search; This is a mandatory setting
   # for the side wide search functionality
