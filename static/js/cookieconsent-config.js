@@ -6,12 +6,12 @@ import '/js/cookieconsent.umd.js';
  */
 CookieConsent.run({
 
+    page_scripts: true,
+
     categories: {
-        necessary: {
-            enabled: true,  // this category is enabled by default
-            readOnly: true  // this category cannot be disabled
-        },
-        analytics: {}
+        analytics: {
+            enabled: true,
+        }
     },
 
     language: {
