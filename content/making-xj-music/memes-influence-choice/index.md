@@ -34,7 +34,7 @@ XJ’s marble bag is actually divided into phases. When a marble is put into the
 | Strong-Meme               | `PEACHES!` | Only choose content if we have already chosen content with the corresponding regular meme.   Only if XJ has already chosen content for the segment having regular meme `PEACHES` will XJ consider choosing content with strong meme `PEACHES!`       |
 
 A set of memes is referred to as a **meme theorem** (a.k.a. **meme stack**) and a meme theorem is valid if all the memes 
-in the set are compatible. For example, the set of `PEACHES,!PEACHES` is invalid because you cannot simultaneously allow 
+in the set are compatible. For example, the set of (`PEACHES`,`!PEACHES`) is invalid because you cannot simultaneously allow 
 and deny `PEACHES`. As XJ crafts a segment, it adds content one at a time. First a Macro-type program, then a Main-type 
 program, then a Beat-type program, then Instruments and other programs. As each piece of content is added, XJ checks the 
 memes associated with that content and adds these memes to the segment. If the memes of a new piece of content would 
