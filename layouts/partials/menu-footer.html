@@ -25,6 +25,10 @@
               }
               var scheme = githubButtonsScheme();
 
+              document.querySelectorAll('.github-button-container').forEach(function(element) {
+                element.parentNode.removeChild(element);
+              });
+
               var starsElement = document.createElement('a');
               starsElement.className = 'github-button';
               starsElement.href = 'https://github.com/xjmusic/xjmusic';
@@ -35,8 +39,9 @@
               starsElement.textContent = 'Star';
 
               var starsContainerElement = document.createElement('div');
-                starsContainerElement.style.paddingTop = '11px';
-                starsContainerElement.appendChild( starsElement );
+              starsContainerElement.className = 'github-button-container';
+              starsContainerElement.style.paddingTop = '11px';
+              starsContainerElement.appendChild( starsElement );
 
               var repoListItem = document.querySelector( '#R-shortcuts > .space > li:first-child' );
               repoListItem.style.display = 'flex';
