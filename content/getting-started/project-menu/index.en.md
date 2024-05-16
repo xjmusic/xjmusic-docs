@@ -1,5 +1,5 @@
 +++
-title = "Project"
+title = "Project Menu"
 weight = 10
 +++
 
