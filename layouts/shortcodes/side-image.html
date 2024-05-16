@@ -1,0 +1,51 @@
+<style>
+    .side-image-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .image-container, .text-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    @media only screen and (max-width: 59.999rem) {
+        .image-container {
+            max-width: 280px;
+        }
+
+        .text-container {
+            padding-top: 20px;
+        }
+
+        .side-image-container {
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .image-container {
+            flex-basis: 33%;
+        }
+
+        .text-container {
+            padding-left:20px;
+            flex-basis: 66%;
+        }
+
+        .side-image-container {
+            flex-direction: row;
+        }
+    }
+</style>
+
+<div class="side-image-container">
+    <div class="image-container">
+        <img src="{{.Get "src"}}" alt="{{.Get "alt"}}" />
+    </div>
+    <div class="text-container">
+        {{.Inner}}
+    </div>
+</div>
