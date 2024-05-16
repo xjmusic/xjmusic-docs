@@ -6,7 +6,7 @@ Libraries are collections of content within the XJ workstation.
 
 When you open a Project, you’ll see a list of all its Libraries.
 
-![Libraries](libraries.png)
+![Libraries](libraries.png?width=600px)
 
 Click on the name of a Library to see the content within.
 
