@@ -1,5 +1,6 @@
 +++
 title = "Instrument Modes"
+tags = ["instrument", "modes", "types", "polyphonic", "chord", "loop", "drum"]
 +++
 
 ### Chord-mode Instruments

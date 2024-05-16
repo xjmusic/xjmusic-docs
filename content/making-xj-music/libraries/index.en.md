@@ -1,6 +1,7 @@
 +++
 title = "Libraries"
 weight = 1
+tags = ["library", "libraries", "content", "programs", "instruments"]
 +++
 
 Libraries are collections of content within the XJ workstation.

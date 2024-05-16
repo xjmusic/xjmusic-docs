@@ -1,5 +1,5 @@
 +++
-categories = ["custom", "theming"]
+categories = ["installation"]
 title = "Windows Installation"
 weight = 4
 +++

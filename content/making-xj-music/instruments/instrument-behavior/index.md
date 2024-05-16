@@ -2,6 +2,7 @@
 title = "Instrument Behavior"
 weight = 3
 description = "Different Types and Modes of instruments have unique purposes and behaviors"
+tags = ["instruments", "types", "modes", "behaviors"]
 +++
 
 Different Types and Modes of instruments have unique purposes and behaviors.

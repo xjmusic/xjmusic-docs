@@ -1,5 +1,6 @@
 +++
 title = "Instrument Menu"
+tags = ["instrument", "menu", "configuration", "settings", "parameters"]
 +++
 
 The instrument menu contains a list of all instruments. Each instrument contains a configuration, which may affect the music when that instrument is chosen.

@@ -1,6 +1,7 @@
 +++
 title = "Fabrication Settngs"
 weight = 8
+tags = ["fabrication", "timeline", "composition", "segment", "chain", "real-time", "recording"]
 +++
 
 The fabrication settings can be opened from the top menu or the hamburger icon in the Fabrication tab.

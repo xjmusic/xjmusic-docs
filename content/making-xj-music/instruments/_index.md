@@ -1,6 +1,7 @@
 +++
 title = "Instruments"
 weight = 3
+tags = ["instrument", "audio", "audios", "instrument model", "instrument types", "instrument modes", "instrument details"]
 +++
 
 

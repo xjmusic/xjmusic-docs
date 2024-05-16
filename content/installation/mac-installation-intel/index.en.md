@@ -1,5 +1,5 @@
 +++
-categories = ["custom", "theming"]
+categories = ["installation"]
 title = "Mac Installation (Intel)"
 weight = 2
 +++

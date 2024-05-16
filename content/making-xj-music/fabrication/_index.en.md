@@ -2,6 +2,7 @@
 title = "Fabrication"
 description = "XJ music fabrication is the command center of the XJ music workstation, offering precise control over playback of your compositions."
 weight = 8
+tags = ["fabrication", "timeline", "composition", "segment", "chain", "real-time", "recording"]
 +++
 
 XJ music fabrication is the command center of the XJ music workstation, offering precise control over playback of your compositions.

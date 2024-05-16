@@ -1,5 +1,6 @@
 +++
 title = "Templates"
+tags = ["Music", "Templates"]
 +++
 
 Templates are packaged compilations of Libraries, potentially highlighting specific Instruments and Programs that can be previewed and/or broadcast.

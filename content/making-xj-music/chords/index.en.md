@@ -3,6 +3,7 @@ archetype = "chapter"
 title = "Chord Interpretation"
 weight = 7
 description = "Glossary of all valid chords and their interpretations"
+tags = ["chords", "interpretation", "glossary"]
 +++
 
 ## Chord Interpretation

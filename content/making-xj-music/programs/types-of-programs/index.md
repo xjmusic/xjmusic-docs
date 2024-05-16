@@ -1,5 +1,6 @@
 +++
 title = "Types of Programs"
+tags = ["program", "macro program", "main program", "beat program", "detail program"]
 +++
 
 

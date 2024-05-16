@@ -1,5 +1,6 @@
 +++
 title = "Configuration of Templates"
+tags = ["template", "configuration", "settings", "parameters"]
 +++
 
 Each Template contains a Template Configuration, a set of values and definitions artists provide to XJ in addition to their chosen Bindings.

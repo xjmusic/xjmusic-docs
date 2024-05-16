@@ -1,5 +1,6 @@
 +++
 title = "Instrument Properties"
+tags = ["instrument", "properties", "settings", "parameters"]
 +++
 
 In the top header of an instrument are included properties that apply to the entire instrument, such as names, memes, type, mode, state, and volume.

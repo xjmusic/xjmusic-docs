@@ -2,6 +2,7 @@
 title = "Events"
 weight = 2
 description = "Sequence pattern events are used as a basis for selecting and assembling instrument audio"
+tags = ["events", "sequence pattern", "audio", "instrument audio", "instrument events", "instrument audio events", "instrument audio selection"]
 +++
 
 Automatic fabrication performs a search for matching Instrument Audio for the chosen Sequence Pattern Voice-Events. 

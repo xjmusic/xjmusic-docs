@@ -1,5 +1,6 @@
 +++
 title = "Instrument Configuration"
+tags = ["instrument", "configuration", "settings", "parameters"]
 +++
 
 | Setting                      | Description |

@@ -2,6 +2,7 @@
 title = "Delta Arcs"
 weight = 1
 description = "As segments are fabricated for each main program, intensity is increased as we progress through the main program."
+tags = ["delta", "arc", "intensity", "segment", "main program"]
 +++
 
 In the XJ music system, the main program is divided into sequences. Each segment is a musical composition that is based on a sequence.

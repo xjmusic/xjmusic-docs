@@ -1,5 +1,6 @@
 +++
 title = "Ship Keys"
+tags = ["XJ", "Music", "Templates", "Ship Keys"]
 +++
 
 Chains are shipped with unique identifiers called keys. Fabrication of Segments

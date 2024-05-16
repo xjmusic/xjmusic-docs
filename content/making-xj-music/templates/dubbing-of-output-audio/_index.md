@@ -1,5 +1,6 @@
 +++
 title = "Dubbing of Output Audio"
+tags = ["audio", "mixer", "source", "output", "final"]
 +++
 
 We are still working with the original simple XJ audio mixer, to combine all source audio into the final output audio. Following is the design for our v0.7 Mixer.

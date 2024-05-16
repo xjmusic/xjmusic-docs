@@ -1,5 +1,6 @@
 +++
 title = "Configuration of Programs"
+tags = ["program", "configuration", "settings", "parameters"]
 +++
 
 ![Configuration of Programs](configurationofprograms.png)

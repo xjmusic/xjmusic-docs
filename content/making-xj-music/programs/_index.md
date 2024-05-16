@@ -1,6 +1,7 @@
 +++
 title = "Programs"
 weight = 2
+tags = ["program", "programs", "program model", "program types", "program details"]
 +++
 
 In XJ music, a **Program** is a collection of musical instructions. While all programs are stored according to the **Program Model**, different [**Types**](/making-xj-music/programs/Types%20of%20Programs/) of programs have unique purposes and behaviors.
