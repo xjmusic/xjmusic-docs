@@ -1,7 +1,8 @@
 +++
 archetype = "chapter"
-title = "Appendix B. Entities & their Relationships"
-weight = 7
+title = "Entities & Relationships"
+weight = 102
+description = "Entity Relationship diagrams for the XJ music entities: Programs, Instruments, and Segments."
 +++
 
 We’ve discussed many entities & their relationships implicitly by showing all these screenshots of XJ music content libraries and describing the function of live music fabrication.
