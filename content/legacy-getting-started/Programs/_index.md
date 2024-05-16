@@ -4,7 +4,7 @@ title = "Programs"
 
 {{% children containerstyle="div" style="h6" depth="1" %}}
 
-In XJ music, a **Program** is a collection of musical instructions. While all programs are stored according to the **Program Model**, different [**Types**](/getting-started/Programs/Types%20of%20Programs/) of programs have unique purposes and behaviors.
+In XJ music, a **Program** is a collection of musical instructions. While all programs are stored according to the **Program Model**, different [**Types**](/legacy-getting-started/Programs/Types%20of%20Programs/) of programs have unique purposes and behaviors.
 
 Each program contains a **configuration**, which may affect the music when that program is chosen.
 
