@@ -10,7 +10,7 @@ When you first open the XJ music workstation, you'll see this empty space, becau
 
 ## Project Menu
 
-The [Project menu](/getting-started/project-menu/index.md) provides a comprehensive set of options for managing project files efficiently. Creating new Projects, opening previously created Projects, saving your work, changing directory settings, and quitting the workstation is done here.
+The [Project menu](/getting-started/menu-bar/index.md) provides a comprehensive set of options for managing project files efficiently. Creating new Projects, opening previously created Projects, saving your work, changing directory settings, and quitting the workstation is done here.
 
 ## Fabrication Menu
 
@@ -18,6 +18,8 @@ The [Fabrication menu](/making-xj-music/fabrication/fabrication-settings) displa
 
 
 ## View Menu
+
+The [View menu](/getting-started/menu-bar/)  
 
 ## Content Tab
 
