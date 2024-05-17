@@ -1,6 +1,7 @@
 +++
 title = "Menu Bar"
 weight = 10
+tags = ["menu", "logs", "error logs", "navigate", "navigation", "help", "about", "version", "guide", "Discord", "support"]
 +++
 
 When you first open the XJ music workstation, no project is open. From the **Project** menu you can create a New Project, Open a Project, or clone one of the [Demo Projects](#demo-projects) to get started right away.

@@ -1,6 +1,7 @@
 +++
 title = "Instrument Editor"
 weight = 40
+tags = ["upload", "import", "audio", "stems", "sounds"]
 +++
 
 In XJ music, an instrument comprises a set of Instrument Audios. This section covers the importation of audio stems and the corresponding properties for uploaded audio.

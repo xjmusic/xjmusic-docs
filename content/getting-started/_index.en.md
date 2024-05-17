@@ -2,6 +2,7 @@
 archetype = "chapter"
 title = "Getting Started"
 weight = 4
+tags = ["start", "getting started", "intro", "tutorial"]
 +++
 
 When you first open the XJ music workstation, you'll see this empty space, because no project is open.
