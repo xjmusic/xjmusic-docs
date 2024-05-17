@@ -36,4 +36,10 @@ In the Templates section of the workstation, you will see a list of available [T
 
 ## Fabrication Tab
 
-In the Fabrication section of the workstation, you will see 
+In the Fabrication section of the workstation, you will see another empty space.
+
+![Empty Timeline](empty-timeline.png)
+
+If all Libraries have finished loading their data, you can prompt the workstation using the Start button in the top right-hand side, and you will see the playback Timeline displayed!
+
+![Playback Timeline](playback-timeline.png)
