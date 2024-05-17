@@ -18,6 +18,8 @@ The underlying technology is protected by [U.S. Patent 10,446,126](https://paten
 
 You may use the XJ music engine completely free for projects with a budget under $250K. For larger projects, contact licensing@xjmusic.com for a license.
 
+![XJ music workstation](xj-music-workstation.png?width=800px)
+
 ## Getting XJ music
 
 #### Binary downloads
