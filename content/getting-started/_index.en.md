@@ -19,7 +19,7 @@ The [Fabrication menu](/making-xj-music/fabrication/fabrication-settings) displa
 
 ## View Menu
 
-The [View menu](/getting-started/menu-bar/)  
+The [View menu](/getting-started/menu-bar/) contains navigational shortcuts between the Content, Templates, and Fabrication tabs, Log controls, and backward/forward buttons to visit their previously viewed locations.
 
 ## Content Tab
 
@@ -32,4 +32,8 @@ or open an instrument to edit it in the [Instrument Editor](/getting-started/ins
 
 ## Templates Tab
 
+In the Templates section of the workstation, you will see a list of available [Templates](/making-xj-music/templates/) in the current project. Templates contain bound [Libraries](/making-xj-music/libraries/)- your [Programs](/making-xj-music/programs/), and [Instruments](/making-xj-music/instruments/).
+
 ## Fabrication Tab
+
+In the Fabrication section of the workstation, you will see 
