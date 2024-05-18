@@ -4,7 +4,7 @@ weight = 10
 tags = ["menu", "logs", "error logs", "navigate", "navigation", "help", "about", "version", "guide", "Discord", "support"]
 +++
 
-When you first open the XJ music workstation, no project is open. From the **Project** menu you can create a New Project, Open a Project, or clone one of the [Demo Projects](#demo-projects) to get started right away.
+When you first open the XJ music workstation, no project is open. From the **Project** menu you can create a New Project, Open a Project, or clone one of the [**Demo Projects**](#demo-projects) to get started right away.
 
 
 ## Demo Projects
@@ -15,7 +15,7 @@ When first opening the XJ music workstation, the user will have the option of de
 
 To open a demo project, access the Project dropdown menu in the top left-hand side of the workstation, and choose Demos. Here you will find a list of four projects created by our team that will help you get acquainted with what the workstation can do. Select one and click OK to begin loading the project’s data, this could take a few minutes as you will be downloading the included audio files.
 
-[Click here](https://youtu.be/z5i8ZD8AyWE) for a video walkthrough!
+[**Click here**](https://youtu.be/z5i8ZD8AyWE) for a video walkthrough!
 
 
 ## View Menu
@@ -37,7 +37,7 @@ To open a demo project, access the Project dropdown menu in the top left-hand si
 |--------------------|------------------------------------------------------------------------------------------|
 | **About**          | Displays the current version of the XJ music workstation.                                |
 | **Tutorial Video** | Open a walkthrough video to help you get started with a demo project.                    |
-| **User Guide**     | Open the [User Guide]().                                                                 |
-| **Discord**        | Contains an invite link to the [XJ music Discord server](https://discord.gg/nbjHgD8xrn). |
+| **User Guide**     | Open the User Guide.                                                                 |
+| **Discord**        | Contains an invite link to the [**XJ music Discord server**](https://discord.gg/nbjHgD8xrn). |
 
 ![About](about.png?width=400px)
