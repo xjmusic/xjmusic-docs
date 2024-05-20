@@ -1,4 +1,5 @@
 +++
+categories = ["Getting-Started"]
 title = "Fabrication Tab"
 weight = 50
 tags = ["fabrication", "play", "playback"]
