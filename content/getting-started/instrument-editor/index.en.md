@@ -1,4 +1,5 @@
 +++
+categories = ["Getting-Started"]
 title = "Instrument Editor"
 weight = 40
 tags = ["upload", "import", "audio", "stems", "sounds"]
@@ -11,7 +12,7 @@ In XJ music, an instrument comprises a set of Instrument Audios. This section co
 
 ## Importing Audio
 
-Click the **Import Audio** button at the top right above the main Instrument window to open your file explorer and choose an audio file to upload. The fiile types currently supported are **.wav**, **.aiff**, and **.mp3**. Upon importing a new audio file, the user will be taken to the [**audio editor**](/getting-started/instrument-editor/#audio-editor).
+Click the **Import Audio** button at the top right above the main Instrument window to open your file explorer and choose an audio file to upload. The fiile types currently supported are **.wav**, **.aiff**, and **.mp3**. Upon importing a new audio file, the user will be taken to the [**audio editor**](/getting-started/instrument-editor/#audio-editor/).
 
 ![Importing Audio](import-audio.png)
 
