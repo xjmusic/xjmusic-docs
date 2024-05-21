@@ -1,4 +1,5 @@
 +++
+categories = ["XJ-music-Design-and-Theory"]
 title = "Dubbing of Output Audio"
 tags = ["audio", "mixer", "source", "output", "final"]
 +++

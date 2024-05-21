@@ -1,4 +1,5 @@
 +++
+categories = ["What-is-XJ-music"]
 archetype = "chapter"
 title = "What is XJ music?"
 weight = 1

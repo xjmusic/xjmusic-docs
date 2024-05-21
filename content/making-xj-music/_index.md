@@ -1,4 +1,5 @@
 +++
+categories = ["XJ-music-Design-and-Theory"]
 archetype = "chapter"
 title = "Making XJ music"
 weight = 5
