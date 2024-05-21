@@ -1,4 +1,5 @@
 +++
+categories = ["XJ-music-Design-and-Theory"]
 title = "Instrument Types"
 tags = ["instrument", "types", "drum", "bass", "pad", "sticky", "stripe", "stab", "hook", "percussion", "transition", "background"]
 +++

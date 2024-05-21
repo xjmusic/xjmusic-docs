@@ -1,4 +1,5 @@
 +++
+categories = ["How-it-Works"]
 archetype = "chapter"
 title = "How it Works"
 weight = 2

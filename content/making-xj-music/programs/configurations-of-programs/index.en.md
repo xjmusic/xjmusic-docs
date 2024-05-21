@@ -1,4 +1,5 @@
 +++
+categories = ["XJ-music-Design-and-Theory"]
 title = "Configuration of Programs"
 tags = ["program", "configuration", "settings", "parameters"]
 +++

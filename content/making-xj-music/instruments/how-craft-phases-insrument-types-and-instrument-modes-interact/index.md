@@ -1,4 +1,5 @@
 +++
+categories = ["XJ-music-Design-and-Theory"]
 title = "How Craft Phases, Instrument Types, and Instrument Modes Interact"
 tags = ["instrument", "craft", "types", "modes"]
 +++
