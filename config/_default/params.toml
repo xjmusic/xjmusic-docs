@@ -361,7 +361,7 @@ externalLinkTarget = "_self"
 # If set to true, the theme behaves like a standard Hugo installation and
 # appends no index.html to prettyURLs. As a trade off, your build project will
 # not be servable from the file system.
-disableExplicitIndexURLs = false
+disableExplicitIndexURLs = true
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # MathJax
