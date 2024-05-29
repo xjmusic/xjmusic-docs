@@ -1,5 +1,4 @@
 +++
-categories = ["Getting-Started"]
 title = "Instrument Editor"
 weight = 40
 tags = ["upload", "import", "audio", "stems", "sounds"]

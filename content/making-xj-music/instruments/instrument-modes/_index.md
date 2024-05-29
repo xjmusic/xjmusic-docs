@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Instrument Modes"
 tags = ["instrument", "modes", "types", "polyphonic", "chord", "loop", "drum"]
 +++

@@ -1,5 +1,4 @@
 +++
-categories = ["installation"]
 title = "Windows Installation"
 weight = 4
 +++

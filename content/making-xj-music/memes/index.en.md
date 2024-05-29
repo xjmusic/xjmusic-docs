@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Memes"
 weight = 5
 tags = ["meme", "memes", "meme theorem", "meme stack", "meme taxonomy", "meme marbles", "meme phases", "meme theorem", "meme types", "meme bag", "meme phases"]

@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Configuration of Templates"
 tags = ["template", "configuration", "settings", "parameters"]
 +++

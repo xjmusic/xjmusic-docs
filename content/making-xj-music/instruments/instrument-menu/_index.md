@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Instrument Menu"
 tags = ["instrument", "menu", "configuration", "settings", "parameters"]
 +++

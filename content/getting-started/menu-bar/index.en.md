@@ -1,5 +1,4 @@
 +++
-categories = ["Getting-Started"]
 title = "Menu Bar"
 weight = 10
 tags = ["menu", "logs", "error logs", "navigate", "navigation", "help", "about", "version", "guide", "Discord", "support"]

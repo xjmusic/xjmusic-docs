@@ -1,5 +1,4 @@
 +++
-categories = ["Getting-Started"]
 title = "Program Editor"
 weight = 30
 tags = ["Program", "program editor", "segment", "macro", "main", "beat", "detail"]

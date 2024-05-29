@@ -1,5 +1,4 @@
 +++
-categories = ["installation"]
 title = "Mac Installation (Silicon)"
 weight = 3
 +++

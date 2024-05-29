@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Events"
 weight = 2
 description = "Sequence pattern events are used as a basis for selecting and assembling instrument audio"

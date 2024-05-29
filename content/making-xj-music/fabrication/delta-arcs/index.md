@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Delta Arcs"
 weight = 1
 description = "As segments are fabricated for each main program, intensity is increased as we progress through the main program."

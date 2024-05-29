@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Fabrication Settngs"
 weight = 8
 tags = ["fabrication", "timeline", "composition", "segment", "chain", "real-time", "recording"]

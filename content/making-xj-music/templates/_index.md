@@ -1,5 +1,4 @@
 +++
-categories = ["XJ-music-Design-and-Theory"]
 title = "Templates"
 tags = ["Music", "Templates"]
 +++

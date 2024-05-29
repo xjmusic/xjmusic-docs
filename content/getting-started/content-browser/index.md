@@ -1,5 +1,4 @@
 +++
-categories = ["Getting-Started"]
 title = "Content Browser"
 weight = 20
 
