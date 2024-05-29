@@ -111,10 +111,10 @@ googleAnalytics = "G-GW9VCFXV42"
     pageRef = "tags/"
     weight = 40
 
-  [[languages.en.menu.shortcuts]]
-    name = "<i class='fa-fw fas fa-layer-group'></i> Categories"
-    pageRef = "categories/"
-    weight = 50
+#  [[languages.en.menu.shortcuts]]
+#    name = "<i class='fa-fw fas fa-layer-group'></i> Categories"
+#    pageRef = "categories/"
+#    weight = 50
 
 
   [[module.mounts]]

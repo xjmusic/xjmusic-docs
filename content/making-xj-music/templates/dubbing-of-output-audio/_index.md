@@ -11,13 +11,13 @@ We are still working with the original simple XJ audio mixer, to combine all sou
 
 1. Mix each Layer from arranged Instrument Audio sources
 
-![Step 1](stepone.png)
+![Dubbing Step 1](dubbingoutputaudiostepone.png)
 
 2. Mix Layers into Segment
 
-![Step 2](steptwo.png)
+![Dubbing Step 2](dubbingoutputaudiosteptwo.png)
 
 3. Add Segments for Streaming
 
-![Step 3](stepthree.png)
+![Subbing Step 3](dubbingoutputaudiostepthree.png)
 

@@ -1,19 +1,20 @@
 +++
 title = "Program Editor"
 weight = 30
+tags = ["Program", "program editor", "segment", "macro", "main", "beat", "detail"]
 +++
 
 The Program Editor allows you to edit music notation by placing Events within Patterns.
 
 There are different modes of editing available. The editor will automatically show the panels corresponding to the type of program you are currently editing: Macro Program, Main Program, Beat Program, or Detail Program.
 
-[Editing a Macro Program](#editing-a-macro-program)
+[**Editing a Macro Program**](#editing-a-macro-program)
 
-[Editing a Main Program](#editing-a-main-program)
+[**Editing a Main Program**](#editing-a-main-program)
 
-[Editing a Beat Program](#editing-a-beat-program)
+[**Editing a Beat Program**](#editing-a-beat-program)
 
-[Editing a Detail Program](#editing-a-detail-program)
+[**Editing a Detail Program**](#editing-a-detail-program)
 
 
 ## Editing a Macro Program
@@ -28,7 +29,7 @@ First, you’ll create some number of sequences containing attribute values for 
 
 ![Sequence Bar](editing-macro-2-sequence-bar.png)
 
-Next, you’ll make sure to be in BIND mode (see the upper left corner) and then bind your sequences into some order. The bindings can have unique memes.
+Next, you’ll make sure to be in **BIND** mode (see the upper left corner) and then bind your sequences into some order. The bindings can have unique memes.
 
 ![Bind Mode](editing-macro-3-bind-mode.png)
 

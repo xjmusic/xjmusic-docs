@@ -1,7 +1,7 @@
 +++
 title = "Memes"
 weight = 5
-tags = ["meme", "memes", "meme theorem", "meme stack", "meme taxonomy", "meme types", "meme bag", "meme marbles", "meme phases", "meme theorem", "meme stack", "meme taxonomy", "meme types", "meme bag", "meme marbles", "meme phases"]
+tags = ["meme", "memes", "meme theorem", "meme stack", "meme taxonomy", "meme marbles", "meme phases", "meme theorem", "meme types", "meme bag", "meme phases"]
 +++
 
 

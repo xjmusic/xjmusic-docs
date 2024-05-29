@@ -1,5 +1,4 @@
 +++
-categories = ["installation"]
 title = "Linux Installation"
 weight = 5
 +++

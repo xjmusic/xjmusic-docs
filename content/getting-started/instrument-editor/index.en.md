@@ -1,6 +1,7 @@
 +++
 title = "Instrument Editor"
 weight = 40
+tags = ["upload", "import", "audio", "stems", "sounds"]
 +++
 
 In XJ music, an instrument comprises a set of Instrument Audios. This section covers the importation of audio stems and the corresponding properties for uploaded audio.
@@ -29,7 +30,7 @@ The two icons in the bottom left of the Waveform Viewer will open the selected a
 
 ### Setting a Transient Offset
 
-A Transient Offset is a floating integer that determines in measurements of seconds where the chosen audio will be starting from when its event is slated to trigger. The default transient offset is 0.0, indicating that the audio will start playing at the beginning of its file when triggered. A transient offset of 0.5 will include a pre-roll of 0.5 seconds and begin playing there. To set a transient offset, click the + symbol and place the new offset on the waveform in its window. You can also manuially enter the exact time in the Transient text field.
+A transient offset is a floating integer that determines in measurements of seconds where the chosen audio will be starting from when its event is slated to trigger. The default transient offset is 0.0, indicating that the audio will start playing at the beginning of its file when triggered. A transient offset of 0.5 will include a pre-roll of 0.5 seconds and begin playing there. To set a transient offset, click the + symbol and place the new offset on the waveform in its window. You can also manuially enter the exact time in the Transient text field.
 
 ### Waveform Viewer
 
