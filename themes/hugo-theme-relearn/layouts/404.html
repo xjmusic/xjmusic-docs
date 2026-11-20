@@ -58,6 +58,7 @@
     <div id="R-body" class="default-animation">
       <main id="R-body-inner" class="chapter" tabindex="-1">
         <div class="flex-block-wrapper">
+          {{- partial "signal-ladder.html" . }}
           <article>
             <h1 id="404"><span>4</span>{{ partial "shortcodes/icon.html" (dict "page" . "icon" "far fa-frown" )}}<span>4</span></h1>
             <h2 id="{{ T "title-404" | plainify | anchorize }}">{{ T "title-404" }}</h2>

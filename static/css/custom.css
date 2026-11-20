@@ -55,3 +55,11 @@ body:not(.print) #R-body-inner.narrow {
 #R-body .tags a.term-link:hover {
     --VARIABLE-TAGS-BG-color: rgba( 255,255,255, 1 ) !important;
 }
+
+/* Signal: the depth ladder (partials/signal-ladder.html) is the first child of
+   the content wrapper, because this theme scrolls #R-body-inner, not the
+   window. Positioned, the wrapper is the content's full height, so the
+   ladder spans it and a rung past the end of a short page is never fetched. */
+#R-body-inner > .flex-block-wrapper {
+    position: relative;
+}

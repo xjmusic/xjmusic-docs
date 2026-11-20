@@ -1,7 +1,15 @@
+{{- /* Signal (first-party analytics): before the consent layer, which
+       drives its journeys yes or no once the page has loaded. */}}
+{{ partial "signal.html" . }}
 <script type="module" src="/js/cookieconsent-config.js"></script>
 
 <div style="display:flex; flex-direction: row; align-items: center; padding-left: 20px;">
     <a href="/">
         <img alt="XJ music documentation" src="/images/xj-symbol.svg" width="32"/>
     </a>
+</div>
+<div style="padding-left: 20px; font-size: .8rem;">
+    <a href="https://outrightmental.com/privacy/">Privacy</a>
+    &middot;
+    <a href="https://outrightmental.com/privacy/" data-cc="show-preferencesModal">Cookie Preferences</a>
 </div>

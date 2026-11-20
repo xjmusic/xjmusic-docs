@@ -15,8 +15,37 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # Pinned: the vendored Relearn theme (6.0.0) reads .Site.Sites.First,
+          # which later Hugo removed, so 'latest' no longer builds the site.
+          # 0.127.0 is the version the live site was built with.
+          hugo-version: '0.127.0'
           extended: true
 
       - name: Build
         run: hugo
+
+      - name: Check Signal on every page
+        # Every built html page opens its content wrapper with the depth ladder
+        # for this site's stream (Relearn scrolls #R-body-inner, not the
+        # window), and every page with the menu loads the first-party client.
+        run: |
+          python3 - <<'PY'
+          import pathlib, re, sys
+          ladder = re.compile(r'<div class="flex-block-wrapper">\s*<div data-signal-depth[^>]*>\s*<img src="https://in\.signal\.outright\.io/v1/d\?k=xjmusic-docs\.24cc090ae2d8091aa2c23def&amp;p=')
+          bad, pages = [], 0
+          for f in sorted(pathlib.Path('public').rglob('*.html')):
+              text = f.read_text(encoding='utf-8')
+              # Only the theme's html pages: not the print and search outputs
+              # (which would repeat a page's path), nor redirect stubs.
+              if not re.search(r'<body class="[^"]*\bhtml\b', text):
+                  continue
+              pages += 1
+              if not ladder.search(text):
+                  bad.append(f'{f}: content does not open with the Signal ladder')
+              if 'id="R-sidebar"' in text and 'js/signal.js"' not in text:
+                  bad.append(f'{f}: no Signal client')
+          print(f'{pages} pages checked')
+          for line in bad:
+              print(f'::error::{line}')
+          sys.exit(1 if bad else 0 if pages else 1)
+          PY
