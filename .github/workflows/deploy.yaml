@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+# The run proves itself to AWS with GitHub's OIDC token: this public repository
+# cannot read the org's AWS keys, which reach private repositories only.
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   deploy:
@@ -27,10 +34,12 @@ jobs:
         run: hugo --minify
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        # outrightmental/infra projects/xj/github-deploy-docs-xjmusic-com.tf: a role only
+        # main of this repository can assume, which writes the docs bucket and invalidates
+        # its distribution, and nothing else.
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
           aws-region: us-east-1
 
       - name: Publish to AWS S3
