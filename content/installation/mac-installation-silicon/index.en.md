@@ -1,9 +1,13 @@
 +++
-title = "Mac Installation (Silicon)"
+title = "Mac Installation (Apple silicon)"
+# The Intel build is no longer made (GitHub retired the macos-13 runner image it was built on): its old page lands here.
+aliases = ["/installation/mac-installation-intel/"]
 weight = 3
 +++
 
-* Download the XJ music workstation Mac OS (Silicon) installer ZIP file to your chosen directory.
+The XJ music workstation for Mac runs on Apple silicon (M1 or later). It is no longer built for Intel Macs.
+
+* Download the XJ music workstation Mac OS (Apple silicon) installer ZIP file to your chosen directory.
 
 * Extract the contents of the ZIP file with your extraction tool of choice.
 
