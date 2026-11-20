@@ -77,3 +77,4 @@
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable {{ partialCached "archetype.hugo" (dict "hook" $hook "page" . "parameter" . "outputFormat" $outputFormat) .RelPermalink $outputFormat $hook }}" tabindex="-1">
         <div class="flex-block-wrapper">
+          {{- if eq $outputFormat "html" }}{{ partial "signal-ladder.html" . }}{{ end }}

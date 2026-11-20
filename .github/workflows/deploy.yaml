@@ -17,7 +17,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # Pinned: the vendored Relearn theme (6.0.0) reads .Site.Sites.First,
+          # which later Hugo removed, so 'latest' no longer builds the site.
+          # 0.127.0 is the version the live site was built with.
+          hugo-version: '0.127.0'
           extended: true
 
       - name: Build

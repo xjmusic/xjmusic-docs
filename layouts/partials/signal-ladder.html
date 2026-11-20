@@ -1,0 +1,23 @@
+{{- /*
+    signal-ladder: the backbone of the site's depth measurement, in HTML alone.
+    One 1×1 image every 200 px down the page (the first is the view, the rest
+    load lazily as the reader nears them) and one at its foot, which Signal's
+    server counts with no script, no cookie and no id. signal.js is enrichment
+    on top: on a page with this ladder it sends no depth of its own.
+
+    The Relearn theme scrolls #R-body-inner, not the window, so a ladder in
+    <body> would be one screen tall. It is the first thing inside the content
+    wrapper instead (the theme's partials/header.html and 404.html), which
+    static/css/custom.css makes `position: relative`, so the ladder spans the
+    content's height and a rung past the end of a short page is never fetched.
+
+    Under the same guard as partials/signal.html: the production host only,
+    so `hugo server` and any other copy never count into the stream.
+    partials/signal-depth.html is a byte copy of sdk/web/hugo/signal-depth.html
+    in outrightmental/signal; refresh it from there, never edit it here.
+*/ -}}
+{{- with site.Params.signal -}}
+{{- if and hugo.IsProduction .key (eq (urls.Parse site.BaseURL).Host .host) -}}
+{{ partial "signal-depth.html" $ }}
+{{- end -}}
+{{- end -}}

@@ -1,0 +1,29 @@
+{{- /*
+  The depth ladder (sdk/web/ladder.mjs), as a Hugo partial: one 1×1 image every
+  200 px down the page, counted by Signal's server with no script.
+
+  Put it as the first thing inside <body>, and give body `position: relative`
+  in the site's CSS. It reads `params.signal` from the site config:
+
+    params:
+      signal:
+        key: outrightmental-com.0123456789abcdef01234567
+        ingest: https://in.signal.outright.io
+
+  Call it with the page as context: {{ partial "signal-depth.html" . }}
+*/ -}}
+{{- with site.Params.signal -}}
+{{- if .key -}}
+{{- $ingest := strings.TrimSuffix "/" (.ingest | default "https://in.signal.outright.io") -}}
+{{- $path := lower $.RelPermalink -}}
+{{- $path = replaceRE `/index\.html?$` "/" $path -}}
+{{- if gt (len $path) 1 }}{{ $path = strings.TrimSuffix "/" $path }}{{ end -}}
+{{- $base := printf "%s/v1/d?k=%s&p=%s" $ingest (.key | urlquery) ($path | urlquery) -}}
+<div data-signal-depth aria-hidden="true" style="position:absolute;top:0;bottom:0;left:0;width:1px;overflow:hidden;pointer-events:none;opacity:0">
+{{- range $at := seq 0 47 -}}
+<img src="{{ printf "%s&b=%d-%d" $base $at $at | safeURL }}" alt="" width="1" height="1"{{ if gt $at 0 }} loading="lazy"{{ end }} decoding="async" referrerpolicy="no-referrer" style="{{ printf "position:absolute;left:0;top:%dpx" (mul $at 200) | safeCSS }}">
+{{- end -}}
+<img src="{{ printf "%s&e=1" $base | safeURL }}" alt="" width="1" height="1" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="position:absolute;left:0;bottom:0">
+</div>
+{{- end -}}
+{{- end -}}

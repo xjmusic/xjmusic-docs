@@ -1,0 +1,30 @@
+{{- /*
+    signal: Outright Mental's own first-party analytics, one script, in the
+    studio's own AWS account. Depth (how far each page is read) is counted for
+    every reader by the page's own ladder (partials/signal-ladder.html), with
+    no cookie and no id, so this script sends none. What it adds is a journey
+    (one visitor across the studio's sites), and only after an explicit yes.
+
+    The yes is the cookie-consent tool's `journeys` category, which starts
+    off; static/js/cookieconsent-config.js passes it to Signal.consent(), so
+    the script's own banner is off here (`data-banner="off"`). A Global
+    Privacy Control signal is a no whatever the tool says. The menu footer's
+    "Cookie Preferences" link reopens the tool, so a yes can become a no.
+
+    Rendered on the production host only (`params.signal.host`): a local
+    server or any other copy would otherwise count into the production
+    stream, which keeps no hostname to tell them apart.
+
+    static/js/signal.js is a byte copy of sdk/web/signal.js in
+    outrightmental/signal; refresh it from there, never edit it here.
+*/ -}}
+{{- with site.Params.signal -}}
+{{- if and hugo.IsProduction .key (eq (urls.Parse site.BaseURL).Host .host) -}}
+<script defer src="/js/signal.js"
+        data-key="{{ .key }}"
+        data-ingest="{{ .ingest }}"
+        data-studio="{{ delimit .studio " " }}"
+        data-privacy="{{ .privacy }}"
+        data-banner="off"></script>
+{{- end -}}
+{{- end -}}
